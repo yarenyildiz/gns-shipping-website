@@ -29,7 +29,7 @@ export default {
   'hero.ctaServices': 'Our Services',
 
 
-  'about.imageAlt': 'GNS field representative coordinating a bulk cargo operation by radio at the port',
+  'about.imageAlt': 'Tanker under way at sea',
   'about.eyebrow': 'About Us',
   'about.title1': 'Global Standards,',
   'about.title2': 'Local Expertise,',

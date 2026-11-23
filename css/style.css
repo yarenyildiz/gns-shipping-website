@@ -535,7 +535,7 @@ svg { fill: currentColor; }
    Why us
    ========================================================================== */
 .why { display: grid; grid-template-columns: 1fr 1.1fr; min-height: 520px; }
-.why__media { background: var(--navy-2) var(--img) center / cover; }
+.why__media { background: var(--navy-2) var(--img) var(--img-pos, center) / cover; }
 
 .why__content {
   display: flex;
@@ -773,7 +773,8 @@ svg { fill: currentColor; }
 }
 
 @media (max-width: 900px) {
-  .topbar__item--location { display: none; }
+  .topbar__item--location,
+  .topbar__item--secondary { display: none; }
 
   .burger { display: flex; }
 
