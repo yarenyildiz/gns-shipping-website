@@ -82,6 +82,11 @@ export default {
   'services.4.item4': 'Port and terminal communication',
   'services.5.title': 'Ship Chartering Services',
   'services.5.item1': 'Organisation and coordination of ship chartering',
+  'services.6.title': 'Legal Consultancy and Regulatory Support',
+  'services.6.item1': 'Support with legal matters in shipping and port operations',
+  'services.6.item2': 'Advice on contracts, agency and commercial disputes',
+  'services.6.item3': 'Guidance on Turkish maritime legislation and related regulations',
+  'services.6.item4': 'Support with claims, demurrage and operational disputes',
 
   'why.title': 'Why Us?',
   'why.1.title': '24/7 Operations Monitoring',
@@ -105,9 +110,9 @@ export default {
   'ports.cta': 'Get Port Information',
   'ports.mapAlt': 'Map of the ports we serve: Istanbul, Samsun, Aliaga, Antalya, Mersin, Adana and Iskenderun',
 
-  'cta.title': 'Is Your Vessel Calling a Turkish Port?',
-  'cta.text': 'Share your ETA and we will prepare your proforma DA promptly.',
-  'cta.button': 'Request a Proforma',
+  'cta.title': 'Get a Quote for Your Port Operations in Türkiye',
+  'cta.text': 'Share the details of your vessel, cargo and planned operation, and we will prepare a PDA and port services quote tailored to your needs.',
+  'cta.button': 'Request a Quote',
 
   'contact.eyebrow': 'Get in Touch',
   'contact.title': 'How Can We Help You?',

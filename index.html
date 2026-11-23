@@ -74,6 +74,7 @@
     <symbol id="i-user" viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0 2c-2.7 0-8 1.3-8 4v2h16v-2c0-2.7-5.3-4-8-4z"/></symbol>
     <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M20.5 3.5A11.8 11.8 0 0 0 1.9 17.8L.3 23.7l6-1.6A11.8 11.8 0 0 0 20.5 3.5zM12 21.5a9.7 9.7 0 0 1-5-1.4l-.3-.2-3.6.9 1-3.5-.3-.4A9.8 9.8 0 1 1 12 21.5zm5.4-7.3c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1l-.9 1.2c-.2.2-.3.2-.6.1a8 8 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.3 5.2 4.6 1.9.8 2.7.9 3.6.7.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4l-.9-.6z"/></symbol>
     <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M20.4 2H3.6C2.7 2 2 2.7 2 3.6v16.8c0 .9.7 1.6 1.6 1.6h16.8c.9 0 1.6-.7 1.6-1.6V3.6c0-.9-.7-1.6-1.6-1.6zM8 19H5V9.5h3V19zM6.5 8.2a1.7 1.7 0 1 1 0-3.5 1.7 1.7 0 0 1 0 3.5zM19 19h-3v-4.6c0-1.1 0-2.5-1.5-2.5S12.7 13 12.7 14.3V19h-3V9.5h2.8v1.3h.1c.4-.7 1.4-1.5 2.8-1.5 3 0 3.6 2 3.6 4.6V19z"/></symbol>
+    <symbol id="i-scale" viewBox="0 0 24 24"><path d="M11 3.5a1 1 0 0 1 2 0V6h6.5a1 1 0 0 1 0 2H13v11h4a1 1 0 0 1 0 2H7a1 1 0 0 1 0-2h4V8H4.5a1 1 0 0 1 0-2H11zM5 7.5 1.8 14h1.6L5 10.7 6.6 14h1.6zM1.5 14.5h7a3.5 3.5 0 0 1-7 0zM19 7.5 15.8 14h1.6l1.6-3.3 1.6 3.3h1.6zM15.5 14.5h7a3.5 3.5 0 0 1-7 0z"/></symbol>
     <symbol id="i-ship" viewBox="0 0 24 24"><path d="M10 2h4v3h4v6.2l2.9 1-2.4 6.3a6 6 0 0 1-3.5-1.3 6 6 0 0 1-3.5 1.3 6 6 0 0 1-3.5-1.3 6 6 0 0 1-3.5 1.3l-2.4-6.3 2.9-1V5h4V2zm-2 5v3.5l4-1.4 4 1.4V7H8zm-6 13.3c1.2.5 2.6.7 4-.1 1.9 1.1 4.1 1.1 6 0 1.9 1.1 4.1 1.1 6 0 1.4.8 2.8.6 4 .1V22c-1.4.5-2.8.5-4-.1-1.9 1-4.1 1-6 0-1.9 1-4.1 1-6 0-1.2.6-2.6.6-4 .1v-1.7z"/></symbol>
     <symbol id="i-send" viewBox="0 0 24 24"><path d="M2 21 23 12 2 3v7l15 2-15 2z"/></symbol>
     <symbol id="i-anchor-line" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2"><path d="M24 4v30M15 16h18M8 28c2 10 10 14 16 14s14-4 16-14M4 30l4-4 4 4M36 30l4-4 4 4"/><circle cx="24" cy="8" r="3.6"/></g></symbol>
@@ -203,7 +204,7 @@
           <a href="#iletisim" class="link-more"><span data-i18n="services.cta">Hizmet Talebi Oluşturun</span> <span class="arrow" aria-hidden="true">›</span></a>
         </div>
 
-        <ul class="cards cards--5">
+        <ul class="cards cards--services">
           <li class="card" data-reveal>
             <span class="card__icon"><svg class="icon" aria-hidden="true"><use href="#i-anchor"/></svg></span>
             <h3 data-i18n="services.1.title">Liman Acenteliği Hizmetleri</h3>
@@ -254,6 +255,16 @@
             <h3 data-i18n="services.5.title">Gemi Kiralama Hizmetleri</h3>
             <ul class="card__list">
               <li data-i18n="services.5.item1">Gemi kiralama süreçlerinin organizasyonu ve koordinasyonu</li>
+            </ul>
+          </li>
+          <li class="card" data-reveal>
+            <span class="card__icon"><svg class="icon" aria-hidden="true"><use href="#i-scale"/></svg></span>
+            <h3 data-i18n="services.6.title">Hukuki Danışmanlık ve Mevzuat Desteği</h3>
+            <ul class="card__list">
+              <li data-i18n="services.6.item1">Denizcilik ve liman operasyonlarına ilişkin hukuki süreçlerde destek</li>
+              <li data-i18n="services.6.item2">Sözleşme, acentelik ve ticari uyuşmazlıklara yönelik danışmanlık</li>
+              <li data-i18n="services.6.item3">Türk denizcilik mevzuatı ve ilgili düzenlemeler hakkında bilgilendirme</li>
+              <li data-i18n="services.6.item4">Alacak, demuraj ve operasyonel ihtilaf süreçlerinde destek</li>
             </ul>
           </li>
         </ul>
@@ -323,10 +334,10 @@
       <div class="cta" data-reveal>
         <svg class="cta__icon" aria-hidden="true"><use href="#i-anchor-line"/></svg>
         <div class="cta__text">
-          <h2 id="cta-title" data-i18n="cta.title">Geminiz Türkiye Limanlarına mı Geliyor?</h2>
-          <p data-i18n="cta.text">ETA bilgisini paylaşın, proforma DA'nızı hızla hazırlayalım.</p>
+          <h2 id="cta-title" data-i18n="cta.title">Türkiye Liman Operasyonlarınız İçin Teklif Alın</h2>
+          <p data-i18n="cta.text">Geminizin, yükünüzün ve planlanan operasyonun detaylarını bizimle paylaşın. İhtiyaçlarınıza özel PDA ve liman hizmetleri teklifinizi hazırlayalım.</p>
         </div>
-        <a href="#iletisim" class="btn btn--accent"><span data-i18n="cta.button">Proforma Talep Edin</span> <span class="arrow" aria-hidden="true">›</span></a>
+        <a href="#iletisim" class="btn btn--accent"><span data-i18n="cta.button">Teklif Talep Edin</span> <span class="arrow" aria-hidden="true">›</span></a>
       </div>
     </section>
 
@@ -368,6 +379,7 @@
                   <option value="protecting-agency" data-i18n="services.3.title">Koruyucu Acentelik Hizmetleri</option>
                   <option value="operations" data-i18n="services.4.title">7/24 Operasyon Desteği</option>
                   <option value="chartering" data-i18n="services.5.title">Gemi Kiralama Hizmetleri</option>
+                  <option value="legal" data-i18n="services.6.title">Hukuki Danışmanlık ve Mevzuat Desteği</option>
                   <option value="other" data-i18n="form.other">Diğer</option>
                 </select>
               </label>
@@ -453,6 +465,7 @@
         <a href="#hizmetler" data-i18n="services.3.title">Koruyucu Acentelik Hizmetleri</a>
         <a href="#hizmetler" data-i18n="services.4.title">7/24 Operasyon Desteği</a>
         <a href="#hizmetler" data-i18n="services.5.title">Gemi Kiralama Hizmetleri</a>
+        <a href="#hizmetler" data-i18n="services.6.title">Hukuki Danışmanlık ve Mevzuat Desteği</a>
       </nav>
       <div class="footer__col footer__contact">
         <h2 data-i18n="nav.contact">İletişim</h2>
