@@ -534,19 +534,26 @@ svg { fill: currentColor; }
 /* ==========================================================================
    Why us
    ========================================================================== */
-.why { display: grid; grid-template-columns: 1fr 1.1fr; min-height: 520px; }
-.why__media { background: var(--navy-2) var(--img) var(--img-pos, center) / cover; }
-
-.why__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 80px clamp(24px, 6vw, 90px);
+.why {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  align-items: center;
+  gap: clamp(32px, 5vw, 64px);
+  width: min(var(--container), 100% - 2 * var(--gutter));
+  margin-inline: auto;
+  padding: 32px 0;
 }
-.why__content .title { margin-bottom: 16px; }
+.why__media {
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius);
+  background: var(--navy-2) var(--img) center / cover;
+  box-shadow: var(--shadow-lg);
+}
+
+.why__content .title { margin-bottom: 8px; }
 
 .features { display: grid; }
-.feature { display: flex; gap: 16px; padding: 18px 0; }
+.feature { display: flex; gap: 16px; padding: 10px 0; }
 .feature + .feature { border-top: 1px solid var(--line); }
 .feature .icon {
   width: 36px;
@@ -806,7 +813,6 @@ svg { fill: currentColor; }
   .why,
   .contact__grid { grid-template-columns: 1fr; }
   .about__img { aspect-ratio: 16 / 9; }
-  .why__media { min-height: 300px; }
 
   .cards { grid-template-columns: 1fr 1fr; }
 
