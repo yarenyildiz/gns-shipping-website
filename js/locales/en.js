@@ -107,6 +107,8 @@ export default {
   'ports.lead':
     'We provide professional agency services at every port in Türkiye, with particularly strong operational support in the Eastern Mediterranean.',
   'ports.cta': 'Get Port Information',
+  'ports.mapWebp': 'img/ports-map-en.webp',
+  'ports.mapJpg': 'img/ports-map-en.jpg',
   'ports.mapAlt': 'Map of the ports we serve: Istanbul, Samsun, Aliaga, Antalya, Mersin, Adana and Iskenderun',
 
   'cta.title': 'Get a Quote for Your Port Operations in Türkiye',
