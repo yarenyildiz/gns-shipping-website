@@ -25,7 +25,7 @@ js/modules/
   scroll-spy.js         Active nav link tracking
   contact-form.js       Validation and mail hand-off
 js/locales/             Translation dictionaries
-img/                    Logo, favicon, touch icon
+img/                    Logo, icons, section photos, ports map (TR and EN)
 ```
 
 ## Running locally
@@ -46,6 +46,8 @@ I didn't want to duplicate every Turkish string in a JSON file, so the HTML itse
 - `data-i18n-attr="placeholder:key; aria-label:key"` translates attributes
 
 On load, the module snapshots the authored Turkish content and keeps it as the fallback. English strings live in `js/locales/en.js`. `js/locales/tr.js` only holds strings that exist in JavaScript alone (form messages, menu labels).
+
+Attributes can carry asset paths as well. The ports map has its text baked into the image, so `src` and `srcset` are bound to locale keys and the English copy is swapped in with everything else.
 
 The selected language is stored in `localStorage` and reflected in the URL (`?lang=en`), so English links can be shared directly. Missing translation keys are logged to the console.
 
@@ -74,4 +76,4 @@ All current evergreen browsers. The code uses ES2022 features (`Object.hasOwn`, 
 
 ## Credits
 
-Hero and section photos are from [Unsplash](https://unsplash.com). Font: [Manrope](https://fonts.google.com/specimen/Manrope).
+Photos and the ports map were supplied by the client. Font: [Manrope](https://fonts.google.com/specimen/Manrope).
