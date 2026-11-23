@@ -167,8 +167,8 @@
 
     <section class="section about" id="hakkimizda" aria-labelledby="about-title">
       <div class="container about__grid">
-        <div class="about__media" data-reveal>
-          <div class="about__img" role="img" data-i18n-attr="aria-label:about.imageAlt" aria-label="Açık denizde seyir hâlindeki tanker" style="--img: url('/img/photos/tanker.jpg')"></div>
+        <div class="photo" data-reveal>
+          <div class="photo__img" role="img" data-i18n-attr="aria-label:about.imageAlt" aria-label="Açık denizde seyir hâlindeki tanker" style="--img: url('/img/photos/tanker.jpg')"></div>
         </div>
         <div class="about__content" data-reveal>
           <p class="eyebrow" data-i18n="about.eyebrow">Hakkımızda</p>
@@ -276,7 +276,9 @@
     </section>
 
     <section class="why" aria-labelledby="why-title">
-      <div class="why__media" aria-hidden="true" style="--img: url('/img/photos/port-operations.jpg')"></div>
+      <div class="photo" aria-hidden="true">
+        <div class="photo__img" style="--img: url('/img/photos/port-operations.jpg'); --ratio: 16 / 9"></div>
+      </div>
       <div class="why__content">
         <h2 class="title" id="why-title" data-i18n="why.title">Neden Biz?</h2>
         <ul class="features">

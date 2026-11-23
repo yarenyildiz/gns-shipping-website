@@ -419,8 +419,9 @@ svg { fill: currentColor; }
   gap: 70px;
 }
 
-.about__media { position: relative; isolation: isolate; }
-.about__media::before {
+/* Framed photo card, shared by About and Why Us. */
+.photo { position: relative; isolation: isolate; }
+.photo::before {
   content: "";
   position: absolute;
   top: -22px;
@@ -432,8 +433,8 @@ svg { fill: currentColor; }
   border-radius: var(--radius);
 }
 
-.about__img {
-  aspect-ratio: 6 / 5;
+.photo__img {
+  aspect-ratio: var(--ratio, 6 / 5);
   border-radius: var(--radius);
   background: var(--navy-2) var(--img) var(--img-pos, center) / cover;
   box-shadow: var(--shadow-lg);
@@ -536,18 +537,12 @@ svg { fill: currentColor; }
    ========================================================================== */
 .why {
   display: grid;
-  grid-template-columns: 1.1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: clamp(32px, 5vw, 64px);
+  gap: 70px;
   width: min(var(--container), 100% - 2 * var(--gutter));
   margin-inline: auto;
-  padding: 32px 0;
-}
-.why__media {
-  aspect-ratio: 16 / 9;
-  border-radius: var(--radius);
-  background: var(--navy-2) var(--img) center / cover;
-  box-shadow: var(--shadow-lg);
+  padding: 40px 0;
 }
 
 .why__content .title { margin-bottom: 8px; }
@@ -812,7 +807,7 @@ svg { fill: currentColor; }
   .about__grid,
   .why,
   .contact__grid { grid-template-columns: 1fr; }
-  .about__img { aspect-ratio: 16 / 9; }
+  .photo__img { --ratio: 16 / 9; }
 
   .cards { grid-template-columns: 1fr 1fr; }
 
@@ -839,7 +834,7 @@ svg { fill: currentColor; }
   .hero__inner { padding: 50px 0 40px; }
   .hero__dots { display: none; }
 
-  .about__media::before { top: -10px; left: -10px; }
+  .photo::before { top: -10px; left: -10px; }
 
   .cards,
   .cards--services,
