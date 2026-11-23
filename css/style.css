@@ -562,10 +562,12 @@ svg { fill: currentColor; }
 /* ==========================================================================
    Ports
    ========================================================================== */
-.ports { background: var(--bg-soft); }
+.ports { padding: 40px 0; background: var(--bg-soft); }
 
+/* The map carries its own heading; size it so the whole graphic fits below the sticky header. */
 .ports__map {
-  margin: 0;
+  width: min(100%, calc((100svh - var(--header-h) - 80px) * 1385 / 923));
+  margin: 0 auto;
   overflow: hidden;
   border-radius: var(--radius);
   background: var(--white);

@@ -102,11 +102,6 @@ export default {
   'why.6.text': 'We prepare detailed PDAs based on official port tariffs and operational requirements, with every cost presented transparently, item by item.',
 
   'ports.eyebrow': 'Ports We Serve',
-  'ports.title1': 'A Strong Operational',
-  'ports.title2': 'Network Across Türkiye',
-  'ports.lead':
-    'We provide professional agency services at every port in Türkiye, with particularly strong operational support in the Eastern Mediterranean.',
-  'ports.cta': 'Get Port Information',
   'ports.mapWebp': 'img/ports-map-en.webp',
   'ports.mapJpg': 'img/ports-map-en.jpg',
   'ports.mapAlt': 'Map of the ports we serve: Istanbul, Samsun, Aliaga, Antalya, Mersin, Adana and Iskenderun',
