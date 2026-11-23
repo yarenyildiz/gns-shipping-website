@@ -220,6 +220,11 @@ svg { fill: currentColor; }
 .topbar__social:hover { background: #004182; }
 .topbar__social .icon { width: 15px; height: 15px; }
 
+/* The second phone and email only fit on a full-width top bar. */
+@media (max-width: 1260px) {
+  .topbar__item--extra { display: none; }
+}
+
 .topbar__badge { font-weight: 700; letter-spacing: 0.05em; color: var(--accent-light); }
 
 .lang {
@@ -651,6 +656,7 @@ svg { fill: currentColor; }
 .info ul { display: grid; gap: 18px; }
 .info li { display: flex; gap: 14px; font-size: 0.9rem; color: var(--muted); }
 .info li strong { display: block; font-size: 0.85rem; color: var(--navy); }
+.info li a { display: block; }
 .info li a:hover { color: var(--accent-dark); }
 
 .info__icon {
