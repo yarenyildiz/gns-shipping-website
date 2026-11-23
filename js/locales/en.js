@@ -29,7 +29,7 @@ export default {
   'hero.ctaServices': 'Our Services',
 
 
-  'about.imageAlt': 'Bulk carriers alongside the berth in the Gulf of Iskenderun',
+  'about.imageAlt': 'GNS field representative coordinating a bulk cargo operation by radio at the port',
   'about.eyebrow': 'About Us',
   'about.title1': 'Global Standards,',
   'about.title2': 'Local Expertise,',

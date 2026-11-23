@@ -435,7 +435,7 @@ svg { fill: currentColor; }
 .about__img {
   aspect-ratio: 4 / 4.4;
   border-radius: var(--radius);
-  background: var(--navy-2) var(--img) center / cover;
+  background: var(--navy-2) var(--img) var(--img-pos, center) / cover;
   box-shadow: var(--shadow-lg);
 }
 
