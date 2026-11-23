@@ -220,7 +220,6 @@ svg { fill: currentColor; }
 .topbar__social:hover { background: #004182; }
 .topbar__social .icon { width: 15px; height: 15px; }
 
-.topbar__badge { font-weight: 700; letter-spacing: 0.05em; color: var(--accent-light); }
 
 .lang {
   display: flex;
@@ -780,8 +779,7 @@ svg { fill: currentColor; }
 }
 
 @media (max-width: 900px) {
-  .topbar__item--location,
-  .topbar__badge { display: none; }
+  .topbar__item--location { display: none; }
 
   .burger { display: flex; }
 

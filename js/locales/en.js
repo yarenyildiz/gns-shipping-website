@@ -6,7 +6,6 @@ export default {
   'a11y.skip': 'Skip to content',
 
   'topbar.location': 'Iskenderun / Hatay, Türkiye',
-  'topbar.badge': '24/7 Operations',
   'topbar.linkedin': 'Our LinkedIn page',
 
   'logo.home': 'GNS Shipping Agency — Home',
