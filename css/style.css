@@ -724,12 +724,6 @@ svg { fill: currentColor; }
 .social a:hover { border-color: var(--accent); background: var(--accent); color: var(--white); }
 .social .icon { width: 16px; height: 16px; }
 
-.footer__legal { padding: 18px 0; border-top: 1px solid rgb(255 255 255 / 0.08); font-size: 0.8rem; }
-.footer__legal dl { display: flex; flex-wrap: wrap; gap: 8px 32px; }
-.footer__legal div { display: flex; gap: 6px; }
-.footer__legal dt { color: rgb(255 255 255 / 0.5); }
-.footer__legal dt::after { content: ":"; }
-
 .footer__bottom {
   display: flex;
   flex-wrap: wrap;

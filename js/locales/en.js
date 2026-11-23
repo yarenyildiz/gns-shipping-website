@@ -135,7 +135,6 @@ export default {
 
   'footer.about': 'Global standards, regional expertise. Iskenderun-based ship agency and logistics services.',
   'footer.company': 'Company',
-  'footer.taxOffice': 'Tax Office / No',
   'footer.rights': 'All rights reserved.',
   'footer.backToTop': 'Back to Top ↑',
 };
