@@ -31,8 +31,6 @@ export default {
 
 
   'about.imageAlt': 'Bulk carriers alongside the berth in the Gulf of Iskenderun',
-  'about.badgeTitle': 'Iskenderun',
-  'about.badgeText': 'based local expertise',
   'about.eyebrow': 'About Us',
   'about.title1': 'Global Standards,',
   'about.title2': 'Local Expertise,',
@@ -84,7 +82,6 @@ export default {
   'services.4.item4': 'Port and terminal communication',
   'services.5.title': 'Ship Chartering Services',
   'services.5.item1': 'Organisation and coordination of ship chartering',
-  'common.learnMore': 'Learn More',
 
   'why.title': 'Why Us?',
   'why.1.title': '24/7 Operations Monitoring',
@@ -107,21 +104,6 @@ export default {
     'We provide professional agency services at every port in Türkiye, with particularly strong operational support in the Eastern Mediterranean.',
   'ports.cta': 'Get Port Information',
   'ports.mapAlt': 'Map of the ports we serve: Istanbul, Samsun, Aliaga, Antalya, Mersin, Adana and Iskenderun',
-  'ports.1.title1': 'Iskenderun',
-  'ports.1.title2': 'Head Office',
-  'ports.1.text': 'On-site operations at the gulf’s container, dry bulk, steel and general cargo terminals.',
-  'ports.2.title1': 'Mersin',
-  'ports.2.title2': '& Adana',
-  'ports.2.text': 'Strong field support at the busiest ports of the Eastern Mediterranean.',
-  'ports.3.title1': 'Aliaga',
-  'ports.3.title2': '& Antalya',
-  'ports.3.text': 'Agency services at Aegean and Western Mediterranean ports.',
-  'ports.4.title1': 'Istanbul',
-  'ports.4.title2': '& Samsun',
-  'ports.4.text': 'Uninterrupted support at Marmara and Black Sea ports.',
-  'ports.5.title1': 'Every Port',
-  'ports.5.title2': 'in Türkiye',
-  'ports.5.text': 'Whichever port you call, work with a single point of contact.',
 
   'cta.title': 'Is Your Vessel Calling a Turkish Port?',
   'cta.text': 'Share your ETA and we will prepare your proforma DA promptly.',
