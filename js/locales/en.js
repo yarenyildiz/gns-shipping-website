@@ -29,7 +29,7 @@ export default {
   'hero.ctaServices': 'Our Services',
 
 
-  'about.imageAlt': 'Tanker under way at sea',
+  'about.imageAlt': 'Bulk carriers alongside the berth in the Gulf of Iskenderun',
   'about.eyebrow': 'About Us',
   'about.title1': 'Global Standards,',
   'about.title2': 'Local Expertise,',
