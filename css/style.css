@@ -769,8 +769,6 @@ svg { fill: currentColor; }
    Responsive
    ========================================================================== */
 @media (max-width: 1080px) {
-  .topbar__item--extra { display: none; }
-
   .nav { gap: 20px; }
 
   .footer__grid { grid-template-columns: 1fr 1fr; }
