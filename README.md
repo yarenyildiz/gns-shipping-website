@@ -16,6 +16,7 @@ The site is fully static. I deliberately kept it free of frameworks, bundlers an
 
 ```
 index.html              Markup, authored in Turkish, plus an inline SVG icon sprite
+robots.txt, sitemap.xml Crawler directives and sitemap for search engines
 css/style.css           Design tokens, components and responsive rules
 js/main.js              Entry point, wires up the modules
 js/modules/

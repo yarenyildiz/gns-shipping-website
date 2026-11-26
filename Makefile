@@ -1,6 +1,6 @@
 PORT ?= 5173
 ZIP  ?= dist/gns-site.zip
-SITE := index.html css js img
+SITE := index.html robots.txt sitemap.xml css js img
 
 .PHONY: serve package clean
 
