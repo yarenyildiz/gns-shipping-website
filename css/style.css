@@ -228,7 +228,7 @@ svg { fill: currentColor; }
   border-radius: 4px;
 }
 .lang__btn { padding: 3px 9px; font-size: 0.74rem; font-weight: 700; color: #c7d3e3; }
-.lang__btn.is-active { background: var(--white); color: var(--navy); }
+.lang__btn[aria-current="page"] { background: var(--white); color: var(--navy); }
 
 /* ==========================================================================
    Header & navigation

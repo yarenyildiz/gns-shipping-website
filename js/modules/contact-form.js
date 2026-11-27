@@ -1,4 +1,4 @@
-import { t, onLanguageChange } from './i18n.js';
+import { t } from './i18n.js';
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -76,6 +76,4 @@ export function initContactForm(form = document.querySelector('[data-contact-for
     window.location.href = buildMailto(recipient, form);
     setStatus('success', 'form.success');
   });
-
-  onLanguageChange(() => setStatus(null, null));
 }

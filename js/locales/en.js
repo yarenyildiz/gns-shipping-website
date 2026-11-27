@@ -1,5 +1,10 @@
 export default {
   'meta.title': 'GNS Shipping Agency & Logistics | Iskenderun',
+  'meta.url': 'https://gnsshipping.com/en/',
+  'meta.siteName': 'GNS Shipping Agency & Logistics',
+  'meta.ogDescription': 'Global standards, regional expertise. Iskenderun-based ship agency and logistics.',
+  'meta.ogLocale': 'en_US',
+  'meta.ogLocaleAlternate': 'tr_TR',
   'meta.description':
     'Iskenderun-based ship agency. Port agency, protecting agency, crew services and 24/7 operations support across the Eastern Mediterranean and all Turkish ports.',
 
@@ -102,8 +107,8 @@ export default {
   'why.6.text': 'We prepare detailed PDAs based on official port tariffs and operational requirements, with every cost presented transparently, item by item.',
 
   'ports.eyebrow': 'Ports We Serve',
-  'ports.mapWebp': 'img/ports-map-en.webp',
-  'ports.mapJpg': 'img/ports-map-en.jpg',
+  'ports.mapWebp': '/img/ports-map-en.webp',
+  'ports.mapJpg': '/img/ports-map-en.jpg',
   'ports.mapAlt': 'Map of the ports we serve: Istanbul, Samsun, Aliaga, Antalya, Mersin, Adana and Iskenderun',
 
   'cta.title': 'Get a Quote for Your Port Operations in Türkiye',

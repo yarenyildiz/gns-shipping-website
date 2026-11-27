@@ -1,4 +1,4 @@
-import { t, onLanguageChange } from './i18n.js';
+import { t } from './i18n.js';
 
 const SCROLL_THRESHOLD = 40;
 const DESKTOP_QUERY = window.matchMedia('(min-width: 901px)');
@@ -40,6 +40,5 @@ export function initHeader() {
     if (event.matches) setOpen(false);
   });
 
-  onLanguageChange(syncBurgerLabel);
   syncBurgerLabel();
 }
